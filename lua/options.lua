@@ -40,9 +40,10 @@ vim.opt.listchars = { tab = '» ', trail = '·', nbsp = '␣' }
 vim.opt.inccommand = 'split'
 
 vim.diagnostic.config({
-    virtual_lines = {
-        current_line = true
-    },
+    virtual_text = false,
+    -- virtual_lines = {
+    --     current_line = true
+    -- },
 })
 
 -- vim.opt.mouse = ""
